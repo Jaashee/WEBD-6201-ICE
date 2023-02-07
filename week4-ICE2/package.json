@@ -1,0 +1,14 @@
+{
+  "name": "week4ICE2",
+  "version": "1.0.0",
+  "description": "REpo for WEBD6201-Winter2022 week4-ICE2",
+  "main": "index.js",
+  "author": "Jashakan Shanmugathasan",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}
