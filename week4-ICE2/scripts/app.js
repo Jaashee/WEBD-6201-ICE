@@ -37,7 +37,7 @@
         let sendButton = document.getElementById("sendButton");
         let subscribedCheckbox = document.getElementById("subscribeCheckBox")
 
-        sendButton.addEventListener("click", function (event )
+        sendButton.addEventListener("click", function(event)
         {
             if (subscribedCheckbox.checked){
                 let contact = new Contact(fullName.value, contactNumber.value, emailAddress.value);
@@ -68,8 +68,14 @@
                          <td>${contact.FullName}</td>
                          <td>${contact.ContactNumber}</td>
                          <td>${contact.EmailAddress}</td>
-                         <td></td>
-                         <td></td>
+                         <td class="text-center">
+                            <button value="" class="btn btn-primary btn-sm edit">
+                            <i class="fas fas-edit fa-sm"></i></button>
+                         </td>
+                         <td class="text-center">
+                            <button value="" class="btn btn-danger btn-sm delete">
+                            <i class="fas fas-trash-alt  fa-sm"></i></button>
+                         </td>
                          </tr>`;
                 index++;
             }
