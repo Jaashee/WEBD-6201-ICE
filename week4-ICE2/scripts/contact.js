@@ -11,15 +11,15 @@ class Contact{
 
     //getters and setters
     get FullName(){
-        return this.FullName;
+        return this.m_fullName;
     }
 
     get ContactNumber(){
-        return this.ContactNumber;
+        return this.m_contactNumber;
     }
 
     get EmailAddress(){
-        return this.EmailAddress;
+        return this.m_emailAddress;
     }
 
     set FullName(fullName){
