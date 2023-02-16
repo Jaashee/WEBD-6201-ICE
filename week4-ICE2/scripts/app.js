@@ -12,7 +12,7 @@
      */
     function AddContact(fullName, contactNumber, emailAddress)
     {
-        let contact = new Contact(fullName, contactNumber, emailAddress);
+        let contact = new core.Contact(fullName, contactNumber, emailAddress);
         if (contact.serialize()){
             let key = contact.FullName.substring(0,1) + Date.now();
             localStorage.setItem(key, contact.serialize())
@@ -56,7 +56,7 @@
         sendButton.addEventListener("click", function (event)
         {
             if (subscribedCheckbox.checked){
-                let contact = new Contact(fullName.value, contactNumber.value, emailAddress.value);
+                let contact = new core.Contact(fullName.value, contactNumber.value, emailAddress.value);
                 if (contact.serialize()){
                     let key = contact.FullName.substring(0,1) + Date.now();
                     localStorage.setItem(key, contact.serialize())
@@ -79,7 +79,7 @@
             let index = 1;
             for(const key of keys){
                 let contactData = localStorage.getItem(key);
-                let contact = new Contact();
+                let contact = new core.Contact();
                 contact.deserialize(contactData);
                 data += `<tr><th scope="row" class="text-center">${index}</th>
                          <td>${contact.FullName}</td>
@@ -144,6 +144,30 @@
 
                 break;
             default:{
+                // get contact information from localstorage
+                let contact = new core.Contact();
+                contact.deserialize(localStorage.getItem(page));
+
+                //display the contact info in the edit form
+                $("#fullName").val(contact.FullName);
+                $("#contactNumber").val(contact.ContactNumber);
+                $("#emailAddress").val(contact.EmailAddress);
+
+                // when editButton is pressed - update the contact
+                $("editButton").on("click", (event) => {
+
+                    event.preventDefault();
+                    //get any changes from the form
+                    contact.FullName = $("fullName").val();
+                    contact.ContactNumber = $("contactNumber").val();
+                    contact.EmailAddress = $("emailAddress").val();
+
+                    // replace the item in localstorage
+                    localStorage.setItem(page, contact.serialize());
+
+                    // return ti the contact-list
+                    location.href = "contact-list.html"
+                });
 
             }
             break;
