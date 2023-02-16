@@ -2,6 +2,23 @@
 // AKA -- Anonymous Self-Executing Function
 (function ()
 {
+
+    /**
+     * Instantiates a contact and stores in localstorage
+     * @param fullName
+     * @param contactNumber
+     * @param emailAddress
+     * @constructor
+     */
+    function AddContact(fullName, contactNumber, emailAddress)
+    {
+        let contact = new Contact(fullName, contactNumber, emailAddress);
+        if (contact.serialize()){
+            let key = contact.FullName.substring(0,1) + Date.now();
+            localStorage.setItem(key, contact.serialize())
+        }
+    }
+
     function DisplayHomePage() {
 
         console.log("DisplayHomePage");
@@ -88,6 +105,48 @@
                 location.href = "edit.html#add"
             });
 
+            $("button.delete").on("click", function (){
+                // confirm delete
+                if(confirm("Delete contact, are you sure?")){
+                    localStorage.removeItem($(this).val())
+                }
+                location.href = "contact-list.html";
+            });
+
+            $("button.edit").on("click", function()
+            {
+                location.href = "edit.html#" + $(this).val();
+            });
+
+        }
+    }
+
+    function DisplayEditPage()
+    {
+        console.log("Edit Page");
+
+        let page = location.hash.substring(1);
+        switch(page){
+            case "add":
+                $("main>h1").text("Add Contact");
+                $("#editButton").html(`<i class="fas fa-plus-circle fa-sm"></i> Add `)
+
+                $("editButton").on(("click"), (event) => {
+                    event.preventDefault();
+                    AddContact(fullName.value, contactNumber.value, emailAddress.value);
+                    // refresh contact-List page
+                    location.href = "contact-list.html"
+                });
+
+                $("#cancelButton").on(("click"), () => {
+                    location.href = "contact-list.html";
+                });
+
+                break;
+            default:{
+
+            }
+            break;
         }
     }
 
@@ -117,6 +176,10 @@
 
             case "Contact List":
                 DisplayContactListPage();
+                break;
+
+            case "Edit Contact":
+                DisplayEditPage();
                 break;
         }
     }
