@@ -47,8 +47,50 @@
 
     }
 
+    /**
+     * This function will validate a input provided based on given regular expression
+     * @param {string}input_field_id
+     * @param {RegExp}regular_expression
+     * @param {string}error_message
+     * @constructor
+     */
+    function ValidateField (input_field_id, regular_expression, error_message){
+
+        let messageArea = $("#messageArea").hide();
+
+        $(input_field_id).on("blur", function() {
+            let inputFieldText = $(this).val();
+            if(!regular_expression.test(inputFieldText)){
+                //fails validation
+                $(this).trigger("focus").trigger("select")
+                messageArea.addClass("alert alert-danger").text(error_message).show();
+            }
+            else
+            {
+                // Passes validation
+                messageArea.removeAttr("class").hide();
+            }
+
+        });
+    }
+
+    function ContactFormValidation() {
+        ValidateField("#fullName",
+            /^([A-Z][a-z]{1,3}\.?\s)?([A-Z][a-z]+)+([\s,-]([A-z][a-z]+))*$/,
+            "please enter a valid first and lastname (ex: Bruce Wayne)");
+
+        ValidateField("#contactNumber",
+            /^(\+\d{1,3}[\s-.])?\(?\d{3}\)?[\s-.]?\d{3}[\s-.]\d{4}$/,
+            "please enter a valid phone contact number (ex: 416-123-12345)");
+
+        ValidateField("#emailAddress", /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,10}$/,
+            "please enter a valid Email address (ex:suername@isp.com)");
+    }
+
     function DisplayContactPage()
     {
+        ContactFormValidation();
+
 
         let sendButton = document.getElementById("sendButton");
         let subscribedCheckbox = document.getElementById("subscribeCheckBox")
@@ -123,7 +165,10 @@
 
     function DisplayEditPage()
     {
+
         console.log("Edit Page");
+
+        ContactFormValidation();
 
         let page = location.hash.substring(1);
         switch(page){
@@ -174,6 +219,16 @@
         }
     }
 
+    function DisplayLoginPage()
+    {
+
+    }
+
+    function DisplayRegisterPage()
+    {
+
+    }
+
     // named  function option
     function Start()
     {
@@ -204,6 +259,12 @@
 
             case "Edit Contact":
                 DisplayEditPage();
+                break;
+            case "Login":
+                DisplayLoginPage();
+                break;
+            case "Register":
+                DisplayRegisterPage();
                 break;
         }
     }
