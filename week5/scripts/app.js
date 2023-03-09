@@ -61,16 +61,13 @@
         $(input_field_id).on("blur", function() {
             let inputFieldText = $(this).val();
             if(!regular_expression.test(inputFieldText)){
-                //fails validation
                 $(this).trigger("focus").trigger("select")
                 messageArea.addClass("alert alert-danger").text(error_message).show();
             }
-            else
-            {
-                // Passes validation
+            else {
                 messageArea.removeAttr("class").hide();
             }
-
+ 
         });
     }
 
