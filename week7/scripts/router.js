@@ -8,14 +8,14 @@
         /**
          * @returns {string}
          */
-        get AvtiveLink(){
+        get AvtiveLink() {
             return this.m_activeLink;
         }
 
         /**
          * @param string
          */
-        set ActiveLink(link){
+        set ActiveLink(link) {
             this.m_activeLink = link;
         }
 
@@ -25,26 +25,30 @@
         }
 
         //Public methods
-        Add(route){
-
+        Add(route) {
+            this.m_routingTable.push(route);
         }
 
-        AddTable(routeTable){
+        AddTable(routeTable) {
             this.m_routingTable = routeTable;
         }
 
-        Find(route){
-
+        Find(route) {
+            this.m_routingTable.indexOf(route);
         }
 
-        Remove(route){
-
+        Remove(route) {
+            if(this.Find(route) > -1){
+                this.m_routingTable.splice(this.Find(route), 1)
+                return true;
+            }
+            return false;
         }
 
 
         //Public override methods
-        toString(){
-
+        toString() {
+            return this.m_routingTable.toString();
         }
 
     }
@@ -53,15 +57,23 @@
 
 let router = new core.Router();
 
-router.AddTable([
-    "/",
-    "/home",
-    "/about",
-    "/services",
-    "/contact",
-    "/contact-list",
-    "/products",
-    "/register",
-    "/login",
-    "/edit",
-]);
+router.AddTable(
+    [
+        "/",
+        "/home",
+        "/about",
+        "/services",
+        "/contact",
+        "/contact-list",
+        "/products",
+        "/register",
+        "/login",
+        "/edit",
+    ]
+);
+
+let route = location.pathname;
+
+router.ActiveLink = (router.Find(route) > -1) // IF true(?) do what's next
+                    ? (route === "/") ? "home" : route.substring(1) // if false do what's next
+                    : ("404");

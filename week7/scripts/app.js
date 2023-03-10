@@ -293,12 +293,52 @@
 
     }
 
+    function Display404Page(){
+        console.log("p404 Page");
+    }
+
+    function ActiveLinkCallback(activeLink){
+        switch (activeLink){
+            case "home" : return DisplayHomePage;
+            case "about" : return DisplayAboutPage;
+            case "service" : return DisplayServicesPage;
+            case "contact" : return DisplayContactPage;
+            case "contact-list" : return DisplayContactListPage;
+            case "products" : return DisplayProductsPage;
+            case "register" : return DisplayRegisterPage;
+            case "login" : return DisplayLoginPage;
+            case "edit" : return DisplayEditPage;
+            case "404" : return Display404Page;
+            default:
+                console.error("Error: callBack does not exist" + activeLink);
+                break;
+        }
+    }
+
+    function LoadContent(ActiveLink, callback){
+        //TODO
+    }
+
+    function LoadFooter(){
+
+    }
+
     // named  function option
     function Start() {
         console.log("App Started!!");
 
-        AjaxRequest("GET", "header.html", LoadHeader);
+        //TODO
+        //LoadHeader();
 
+        AjaxRequest("GET", "./views/components/header.html", LoadHeader);
+
+        //TODO
+        LoadContent(router.ActiveLink, ActiveLinkCallback(router.ActiveLink))
+
+        //TODO
+        LoadFooter()
+
+        /*
         switch (document.title) {
             case "Home":
                 DisplayHomePage();
@@ -330,6 +370,7 @@
                 DisplayRegisterPage();
                 break;
         }
+        */
     }
 
     window.addEventListener("load", Start);
