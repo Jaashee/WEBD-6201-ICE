@@ -39,17 +39,12 @@
         xhr.send();
     }
 
-    function LoadHeader(html_data) {
-        $("header").html(html_data);
-        $(`li > a:contains(${document.title})`).addClass("active");
-    }
-
     function DisplayHomePage() {
 
         console.log("DisplayHomePage");
 
         $("#AboutUsButton").on("click", () => {
-            location.href = "about.html"
+            location.href = "/about"
         });
 
         $("main").append(`<p id="MainParagraph" class="mt-3" >This is the main paragraph<p/>`);
@@ -159,7 +154,7 @@
             contactList.innerHTML = data;
 
             $("#addButton").on("click", () => {
-                location.href = "edit.html#add"
+                location.href = "/edit#add"
             });
 
             $("button.delete").on("click", function () {
@@ -167,11 +162,11 @@
                 if (confirm("Delete contact, are you sure?")) {
                     localStorage.removeItem($(this).val())
                 }
-                location.href = "contact-list.html";
+                location.href = "/contact-list";
             });
 
             $("button.edit").on("click", function () {
-                location.href = "edit.html#" + $(this).val();
+                location.href = "/edit#" + $(this).val();
             });
 
         }
@@ -193,11 +188,11 @@
                     event.preventDefault();
                     AddContact(fullName.value, contactNumber.value, emailAddress.value);
                     // refresh contact-List page
-                    location.href = "contact-list.html"
+                    location.href = "/contact-list"
                 });
 
                 $("#cancelButton").on(("click"), () => {
-                    location.href = "contact-list.html";
+                    location.href = "/contact-list";
                 });
 
                 break;
@@ -224,7 +219,7 @@
                     localStorage.setItem(page, contact.serialize());
 
                     // return ti the contact-list
-                    location.href = "contact-list.html"
+                    location.href = "/contact-list"
                 });
 
             }
@@ -268,7 +263,7 @@
 
             $("#cancelButton").on("click", function () {
                 document.forms[0].reset();
-                location.href = "index.html";
+                location.href = "/index";
             });
 
         });
@@ -284,7 +279,7 @@
         $("#logout").on("click", function () {
 
             sessionStorage.clear();
-            location.href = "login.html";
+            location.href = "/login";
         });
 
     }
@@ -293,68 +288,84 @@
 
     }
 
-    function Display404Page(){
-        console.log("p404 Page");
+    function Display404Page() {
+
     }
 
-    function ActiveLinkCallback(activeLink){
-        switch (activeLink){
-            case "home" : return DisplayHomePage;
-            case "about" : return DisplayAboutPage;
-            case "service" : return DisplayServicesPage;
-            case "contact" : return DisplayContactPage;
-            case "contact-list" : return DisplayContactListPage;
-            case "products" : return DisplayProductsPage;
-            case "register" : return DisplayRegisterPage;
-            case "login" : return DisplayLoginPage;
-            case "edit" : return DisplayEditPage;
-            case "404" : return Display404Page;
+    function ActiveLinkCallback() {
+        switch (router.ActiveLink) {
+            case "home" :
+                return DisplayHomePage;
+            case "about" :
+                return DisplayAboutPage;
+            case "services" :
+                return DisplayServicesPage;
+            case "contact" :
+                return DisplayContactPage;
+            case "contact-list" :
+                return DisplayContactListPage;
+            case "products" :
+                return DisplayProductsPage;
+            case "register" :
+                return DisplayRegisterPage;
+            case "login" :
+                return DisplayLoginPage;
+            case "edit" :
+                return DisplayEditPage;
+            case "404" :
+                return Display404Page;
             default:
-                console.error("Error: callBack does not exist" + activeLink);
+                console.error("Error: callBack does not exist" + router.ActiveLink);
                 break;
         }
     }
 
-    function LoadContent(ActiveLink, callback){
-        //TODO
+    function LoadHeader() {
+
+        $.get("/views/components/header.html", function (html_data)
+        {
+            $("header").html(html_data);
+
+            document.title = capitalizeFirstLetter(router.ActiveLink);
+            $(`li>a:contains(${document.title})`).addClass("active");
+
+            CheckLogin();
+        });
     }
 
-    function LoadFooter(){
+    function capitalizeFirstLetter(str){
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
 
+    function LoadContent() {
+        let page_name = router.ActiveLink;
+        let callback = ActiveLinkCallback();
+
+        $.get(`./views/content/${page_name}.html`, function (html_data) {
+            $("main").html(html_data);
+            callback();
+        });
+    }
+
+    function LoadFooter() {
+        $.get("/views/components/footer.html", function (html_data) {
+            $("footer").html(html_data);
+        });
     }
 
     // named  function option
-    function Start()
-    {
+    function Start() {
         console.log("App Started!!");
 
-        //TODO
-        LoadHeader()
-        {
-            $.get("/views/components/header.html", function (html_data){
-                $("header").html(html_data);
+        LoadHeader();
 
-                //TODO: We need to fix and revisit this
-                $(`li>a:contains(${document.title})`).addClass("active");
-                CheckLogin();
-            });
-        }
+        LoadContent();
 
-        AjaxRequest("GET", "./views/components/header.html", LoadHeader);
+        LoadFooter();
 
-        //TODO
-        LoadContent(router.ActiveLink, ActiveLinkCallback(router.ActiveLink))
-
-        //TODO
-        LoadFooter()
-        {
-            $.get("/views/components/footer.html", function (html_data)
-            {
-                $("footer").html(html_data);
-            });
-        }
 
     }
+
     window.addEventListener("load", Start);
 
 })();

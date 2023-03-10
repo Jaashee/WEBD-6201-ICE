@@ -8,7 +8,7 @@
         /**
          * @returns {string}
          */
-        get AvtiveLink() {
+        get ActiveLink() {
             return this.m_activeLink;
         }
 
@@ -34,7 +34,7 @@
         }
 
         Find(route) {
-            this.m_routingTable.indexOf(route);
+           return this.m_routingTable.indexOf(route);
         }
 
         Remove(route) {
@@ -52,6 +52,8 @@
         }
 
     }
+
+    core.Router = Router;
 
 })(core || (core = {}));
 
@@ -75,5 +77,5 @@ router.AddTable(
 let route = location.pathname;
 
 router.ActiveLink = (router.Find(route) > -1) // IF true(?) do what's next
-                    ? (route === "/") ? "home" : route.substring(1) // if false do what's next
-                    : ("404");
+                    ? (route == "/") ? "home" : route.substring(1) // if false do what's next
+                    : "404";
