@@ -7,23 +7,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 7-2 Initial commit with LoadFooter and refactored LoadHeader">
-      <change afterPath="$PROJECT_DIR$/week7-2/views/content/404.html" afterDir="false" />
+    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 7-2 Final commit Website in working condition with function nav with SPA">
+      <change afterPath="$PROJECT_DIR$/week9/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/content/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/data/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/authguard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/namespace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/contact-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/views/content/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/contact-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/contact-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/scripts/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/scripts/authguard.js" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/scripts/authguard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/scripts/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/scripts/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/content/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/views/components/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/components/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week7-2/views/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/views/components/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last.edited.regexp": "Dian",
-    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week7-2/views/content",
+    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,11 +93,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week9" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week6" />
-      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
@@ -113,7 +122,7 @@
       <workItem from="1678218544654" duration="11143000" />
       <workItem from="1678314311585" duration="1221000" />
       <workItem from="1678374335046" duration="15419000" />
-      <workItem from="1678458259507" duration="18084000" />
+      <workItem from="1678458259507" duration="19313000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -234,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678482500968</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Week 7-2 Final commit Website in working condition with function nav with SPA">
+      <created>1678487767643</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678487767643</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +279,7 @@
     <MESSAGE value="Week 7 Initial commit, preparing for routing and single page application" />
     <MESSAGE value="Week 7 final commit" />
     <MESSAGE value="Week 7-2 Initial commit with LoadFooter and refactored LoadHeader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 7-2 Initial commit with LoadFooter and refactored LoadHeader" />
+    <MESSAGE value="Week 7-2 Final commit Website in working condition with function nav with SPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 7-2 Final commit Website in working condition with function nav with SPA" />
   </component>
 </project>
