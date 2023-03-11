@@ -7,12 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 9 commit refactored authguard.js, namespace.js, router.js to typescript file (.ts)">
-      <change afterPath="$PROJECT_DIR$/week9/scripts/user.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/user.ts" afterDir="false" />
+    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 9 commit refactored user.js to user.ts">
+      <change afterPath="$PROJECT_DIR$/week9/scripts/app.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week9/scripts/app.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/content/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/week5/content/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week5/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/week5/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week6/content/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/week6/content/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week7-2/content/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/week7-2/content/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week7/content/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/week7/content/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week9/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week9/scripts/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2LO1cVOgieNWKDfa2c4iQlmhcYF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,7 +111,7 @@
       <workItem from="1678218544654" duration="11143000" />
       <workItem from="1678314311585" duration="1221000" />
       <workItem from="1678374335046" duration="15419000" />
-      <workItem from="1678458259507" duration="24092000" />
+      <workItem from="1678458259507" duration="25926000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -273,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678497849720</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Week 9 commit refactored user.js to user.ts">
+      <created>1678498603615</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678498603615</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +305,8 @@
         <option value="$PROJECT_DIR$/week9/scripts/authguard.js.map" />
         <option value="$PROJECT_DIR$/week9/scripts/user.js.map" />
         <option value="$PROJECT_DIR$/week9/scripts/user.js" />
+        <option value="$PROJECT_DIR$/week9/scripts/app.js" />
+        <option value="$PROJECT_DIR$/week9/scripts/app.js.map" />
       </list>
     </option>
   </component>
@@ -323,6 +340,7 @@
     <MESSAGE value="Week 9 commit added tsconfig.json" />
     <MESSAGE value="Week 9 commit added converted contact.js to contact.ts" />
     <MESSAGE value="Week 9 commit refactored authguard.js, namespace.js, router.js to typescript file (.ts)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 9 commit refactored authguard.js, namespace.js, router.js to typescript file (.ts)" />
+    <MESSAGE value="Week 9 commit refactored user.js to user.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 9 commit refactored user.js to user.ts" />
   </component>
 </project>
