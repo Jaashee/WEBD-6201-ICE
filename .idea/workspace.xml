@@ -8,7 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 9 commit added converted contact.js to contact.ts">
-      <change beforePath="$PROJECT_DIR$/week9/scripts/namespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/namespace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week9/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/scripts/authguard.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/authguard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/scripts/namespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/namespace.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/scripts/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/week9/scripts/router.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <workItem from="1678218544654" duration="11143000" />
       <workItem from="1678314311585" duration="1221000" />
       <workItem from="1678374335046" duration="15419000" />
-      <workItem from="1678458259507" duration="22111000" />
+      <workItem from="1678458259507" duration="23205000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -255,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678496546942</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Week 9 commit added converted contact.js to contact.ts">
+      <created>1678496629784</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678496629784</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +275,12 @@
       <list>
         <option value="$PROJECT_DIR$/week9/scripts/contact.js" />
         <option value="$PROJECT_DIR$/week9/scripts/contact.js.map" />
+        <option value="$PROJECT_DIR$/week9/scripts/namespace.js.map" />
+        <option value="$PROJECT_DIR$/week9/scripts/namespace.js" />
+        <option value="$PROJECT_DIR$/week9/scripts/router.js.map" />
+        <option value="$PROJECT_DIR$/week9/scripts/router.js" />
+        <option value="$PROJECT_DIR$/week9/scripts/authguard.js" />
+        <option value="$PROJECT_DIR$/week9/scripts/authguard.js.map" />
       </list>
     </option>
   </component>
