@@ -7,32 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 7-2 Final commit Website in working condition with function nav with SPA">
-      <change afterPath="$PROJECT_DIR$/week9/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/content/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/data/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/authguard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/namespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/scripts/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/components/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/contact-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/views/content/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week9/yarn.lock" afterDir="false" />
+    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="Week 9 Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week9/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/week9/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +99,7 @@
       <workItem from="1678218544654" duration="11143000" />
       <workItem from="1678314311585" duration="1221000" />
       <workItem from="1678374335046" duration="15419000" />
-      <workItem from="1678458259507" duration="19313000" />
+      <workItem from="1678458259507" duration="20488000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -250,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678487767643</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Week 9 Initial Commit">
+      <created>1678489159474</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678489159474</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +252,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Week 4-ICE1 First Commit with edit page and jquery in app.js" />
     <MESSAGE value="Updated week4 2nd commit" />
     <MESSAGE value="Week 4 ICE2 Final commit" />
@@ -280,6 +266,7 @@
     <MESSAGE value="Week 7 final commit" />
     <MESSAGE value="Week 7-2 Initial commit with LoadFooter and refactored LoadHeader" />
     <MESSAGE value="Week 7-2 Final commit Website in working condition with function nav with SPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week 7-2 Final commit Website in working condition with function nav with SPA" />
+    <MESSAGE value="Week 9 Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week 9 Initial Commit" />
   </component>
 </project>
