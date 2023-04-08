@@ -2,16 +2,24 @@
   "name": "webd6201-week10",
   "version": "1.0.0",
   "description": "week 10",
-  "main": "index.js",
+  "main": "server.js",
   "author": "WEBD6201 Student",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@popperjs/core": "^2.11.2",
     "bootstrap": "^5.1.3",
     "jquery": "^3.6.0"
+
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.14"
+    "@types/jquery": "^3.5.14",
+    "@types/node": "^18.15.11"
+
   }
 }
