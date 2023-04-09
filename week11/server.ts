@@ -1,41 +1,34 @@
 "use strict";
-//Imports
-import http from 'http';
-import fs from 'fs';
-import mime from 'mime-types';
+
+// Imports
+import express from 'express';
+import path from 'path';
 
 //Variables
-
 const port = process.env.PORT || 3000;
-let lookup = mime.lookup;
+const app = express(); // Create application
+const router = express.Router();
 
-//configuration
+console.log(__dirname);
+//Configuration
+app.use(router);
+app.set("views", path.join(__dirname, "./Views/"));
+app.set("view engine", "ejs");
 
-//static configuration
-const server = http.createServer((req, res) => {
-    let path : string = req.url as string;
-    if(path === "/" || path === "/home"){
-        path = "/index.html"
-    }
-
-    console.log(__dirname)
+//Static Configurations
+app.use(express.static(path.join(__dirname, "./client/")));
+app.use(express.static(path.join(__dirname, "./node_modules/")));
 
 
-    let mime_type : string = lookup(path.substring(1)) as string;
-
-    fs.readFile(__dirname + path, function(err,data){
-        if(err){
-            res.writeHead(404);
-            res.end("Error 404 - File not found" + err.message);
-            return;
-        }
-        //used as a means to prevent any user from changing the current-type
-        res.setHeader("X-Content-Type-Options", "nosniff");
-        res.writeHead(200, {"Content-Type" : mime_type});
-        res.end(data);
-    });
+//Middleware
+router.get('/', function (req, res, next){
+    res.render('index',{title: "Hello, World!"});
+    next();
 });
 
-server.listen(port,  () => {
-    console.log(`Server running at: ${port}/`);
+//Listeners
+app.listen(port,  function () {
+    console.log(`Server listening on port: ${port}/`);
 });
+
+export default app;

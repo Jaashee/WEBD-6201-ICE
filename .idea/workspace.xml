@@ -7,44 +7,705 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="week 10-2 Initial commit">
-      <change afterPath="$PROJECT_DIR$/week11/Content/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Data/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/authguard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/contact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/namespace.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Scripts/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/components/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/contact-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/Views/content/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week11/tsconfig.json" afterDir="false" />
+    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="week11 Initial commit">
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.bin/acorn.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.bin/ts-node-esm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.bin/ts-node-script.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.bin/ts-node-transpile-only.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.bin/ts-script.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/.yarn-integrity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@cspotcode/source-map-support/register-hook-require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@cspotcode/source-map-support/register.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@cspotcode/source-map-support/source-map-support.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/js/brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/less/_larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/less/_rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/less/_stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/less/brands.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/sprites/brands.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/accessible-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/adversal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/amazon-pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/app-store.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/apper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/apple-pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/aviato.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/cc-diners-club.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/cc-discover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/connectdevelop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/contao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/cotton-bureau.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/creative-commons-by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/creative-commons-nc-eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/creative-commons-sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/critical-role.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/d-and-d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/deploydog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/draft2digital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/earlybirds.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/empire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/erlang.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/facebook-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/fedora.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/firefox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/fonticons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/fort-awesome.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/get-pocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/git-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/git.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/goodreads.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/google-pay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/google-plus-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/google-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/hackerrank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/hire-a-helper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/hornbill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/ideal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/imdb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/internet-explorer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/ioxhost.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/itunes-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/java.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/joomla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/kaggle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/korvue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/lyft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/mandalorian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/medrt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/microsoft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/mixer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/monero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/napster.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/ns8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/odnoklassniki-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/openid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/page4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/pagelines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/perbyte.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/php.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/pied-piper-pp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/pinterest-p.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/r-project.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/ravelry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/redhat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/rev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/scribd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/sellcast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/shirtsinbulk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/shopify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/simplybuilt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/squarespace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/stack-overflow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/steam-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/sticker-mule.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/stripe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/stumbleupon-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/telegram-plane.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/think-peaks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/tiktok.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/twitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/typo3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/uncharted.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/usps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/viacoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/viadeo-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/wodu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/wpexplorer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/wpforms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/xing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/y-combinator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/yelp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/brands/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/address-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/angry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/arrow-alt-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/calendar-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/comment-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/comment-dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/dizzy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/flushed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/folder-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/font-awesome-logo-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/frown-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/grimace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/grin-squint-tears.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/grin-squint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/grin-tongue-wink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/hand-lizard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/hand-point-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/hand-pointer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/hand-spock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/kiss-beam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/laugh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/lemon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/money-bill-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/sad-cry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/snowflake.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/star-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/tired.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/trash-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/window-maximize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/regular/window-minimize.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/adjust.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ambulance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ankh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/archway.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-alt-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/arrows-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/audio-description.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/backspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/barcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/bars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/baseball-ball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/basketball-ball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-quarter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/biohazard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/book-medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/border-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/border-style.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/bread-slice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/broom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/bullhorn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/bus-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-day.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/calendar-week.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cannabis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/car-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/caret-square-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cart-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cash-register.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-area.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chart-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/check-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cheese.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chess-king.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/chevron-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/clipboard-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/closed-captioning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-download-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-showers-heavy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/comments-dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/crop-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/crow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/database.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/dharmachakra.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/dice-one.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/dice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/digital-tachograph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/draw-polygon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/dumbbell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/egg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ellipsis-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ellipsis-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ethernet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/euro-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/exclamation-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/expand-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/expand-arrows-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/file-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/file-contract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/file-invoice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/file-medical-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/fingerprint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/fire-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/fire-extinguisher.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/flask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/folder-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/frown-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/gamepad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/gas-pump.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/gem.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-americas.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/globe-europe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/greater-than-equal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-beam-sweat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/grin-tongue-wink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/grip-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/guitar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hammer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-holding-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-lizard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-middle-finger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-point-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-rock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hand-spock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/handshake.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hat-cowboy-side.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/heartbeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hippo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/horse-head.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/hospital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/i-cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/id-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/inbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/indent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/kiss-beam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/kiss-wink-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/kiwi-bird.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop-house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh-beam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/laugh-squint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/layer-group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/location-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/long-arrow-alt-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/lungs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/mail-bulk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/meh-blank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/memory.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/mercury.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/microphone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/mobile-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/money-check-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/motorcycle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/mouse-pointer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/object-ungroup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/paste.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/pause-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/paw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/pen-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/pepper-hot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/percent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/phone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/piggy-bank.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/pizza-slice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/plane-departure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/power-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/procedures.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/rainbow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/receipt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/remove-format.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/republican.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/restroom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/route.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/ruble-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/screwdriver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/search-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/share-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/shekel-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/shield-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/shield-virus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-in-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign-out-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sitemap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/skating.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/skull-crossbones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/skull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/snowplow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-alpha-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sort-amount-down-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/space-shuttle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/spider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/star-of-life.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/step-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/sticky-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/street-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/subscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/syringe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/tasks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/tenge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/terminal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/thermometer-quarter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/tint.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/tram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/trash-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/truck-loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/tty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/umbrella-beach.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/unlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-astronaut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-graduate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/user-ninja.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/venus-double.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/vest-patches.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/vest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/vials.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/virus-slash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/viruses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/volume-mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/vote-yea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/vr-cardboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/water.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/wrench.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/svgs/solid/yin-yang.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/resolve-uri/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.mjs.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/resolve-uri/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/trace-mapping/dist/types/binary-search.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@jridgewell/trace-mapping/dist/types/resolve.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/cjs/popper-lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/cjs/popper-lite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/dom-utils/getClippingRect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/dom-utils/getCompositeRect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/dom-utils/getDocumentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/dom-utils/getHTMLElementScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/dom-utils/getScrollParent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/modifiers/flip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/modifiers/popperOffsets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/esm/utils/validateModifiers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/dist/umd/popper-lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/index.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/applyStyles.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/arrow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/eventListeners.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/flip.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/hide.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/offset.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/modifiers/preventOverflow.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/popper.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/popper.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/types.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/debounce.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/detectOverflow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/expandToHashMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getAltAxis.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getAltAxis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getAltAxis.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getAltLen.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getBasePlacement.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/getVariation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/mergeByName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/mergePaddingObject.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/orderModifiers.js.flow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/uniqueBy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/uniqueBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@popperjs/core/lib/utils/validateModifiers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/jquery/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/cluster.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/dns.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/domain.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/http2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/readline/promises.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/stream/promises.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/assert/strict.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/cluster.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/fs/promises.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/querystring.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/readline/promises.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/repl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/tty.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/url.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/wasi.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/ts4.8/zlib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/v8.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/node/worker_threads.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/sizzle/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/@types/sizzle/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/acorn-walk/dist/walk.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/acorn-walk/dist/walk.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/acorn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/acorn/dist/acorn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/arg/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/arg/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/balanced-match/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/binary-extensions/binary-extensions.json.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/binary-extensions/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/base-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/dom/data.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/dom/manipulator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/dom/manipulator.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/dom/selector-engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/offcanvas.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/tab.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/dist/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/offcanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/scrollspy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/js/src/util/sanitizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/brace-expansion/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/chokidar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/concat-map/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/debug/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/debug/src/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/dist/diff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/convert/xml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/diff/character.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/diff/sentence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/patch/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/diff/lib/util/distance-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/glob-parent/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/is-binary-path/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/is-glob/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/is-glob/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/is-number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/core/camelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/core/isAttached.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/deprecated/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/var/isWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/make-error/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/mime-db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ms/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/doc/cli/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/doc/cli/usage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/config/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/node_modules/.bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nodemon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/picomatch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/pstree.remy/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/pstree.remy/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/readdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/semver/bin/semver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/semver/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/build/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/bin/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/classes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/classes/semver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/cmp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/coerce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/eq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/functions/prerelease.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/internal/identifiers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/node_modules/semver/ranges/valid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/src/cache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/src/getDistVersion.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/simple-update-notifier/src/hasNewVersion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist-raw/node-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist-raw/runmain-hack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/bin-esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/bin-script-deprecated.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/bin-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/bin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/argv-payload.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/argv-payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/child-entrypoint.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/child-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/child-require.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/spawn-child.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/child/spawn-child.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/cjs-resolve-hooks.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/module-type-classifier.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/node-module-type-classifier.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/repl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/resolver-functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/transpilers/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/transpilers/types.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/tsconfigs.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/dist/tsconfigs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/node14/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/node16/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/node_modules/.bin/tsserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/ts-node/transpilers/swc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/bin/tsserver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/ja/diagnosticMessages.generated.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/ko/diagnosticMessages.generated.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.decorators.legacy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2015.core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2015.promise.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2015.proxy.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2015.symbol.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2016.array.include.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2016.full.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2017.intl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2018.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2018.full.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2019.array.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2019.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2019.intl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2019.string.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2020.intl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2021.promise.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2021.weakref.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2022.object.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2022.regexp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2022.string.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.es2023.full.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/lib.scripthost.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/typesMap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/typescript/lib/typescript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/undefsafe/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/undefsafe/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/undefsafe/lib/undefsafe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/undefsafe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/v8-compile-cache-lib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/v8-compile-cache-lib/v8-compile-cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/v8-compile-cache-lib/v8-compile-cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/yn/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10-2/node_modules/yn/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/contact.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/contact.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/user.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10-2/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Content/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Content/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/authguard.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/authguard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/authguard.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/authguard.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/authguard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/authguard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/contact.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/contact.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/contact.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/contact.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/namespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/namespace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/namespace.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/namespace.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/namespace.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/namespace.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/user.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/Scripts/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/client/Scripts/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week11/Views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/week11/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week11/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week11/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/week11/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +764,7 @@
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last.edited.regexp": "Dian",
-    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week11",
+    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week11/Views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,13 +779,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week11\Views" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week11" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week10-2" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week9" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
-      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week11\client" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week10" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
@@ -174,7 +836,7 @@
       <workItem from="1680214465598" duration="128000" />
       <workItem from="1680564023324" duration="5640000" />
       <workItem from="1680654584098" duration="748000" />
-      <workItem from="1680905354806" duration="20129000" />
+      <workItem from="1680905354806" duration="22994000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -379,7 +1041,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680925191217</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="week11 Initial commit">
+      <created>1680999251485</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1680999251485</updated>
+    </task>
+    <task id="LOCAL-00031" summary="week11 Initial commit">
+      <created>1680999289086</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1680999289086</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +1137,7 @@
     <MESSAGE value="Week 9 Final Commit refactored app.js to app.ts and cleaned up rest of code" />
     <MESSAGE value="week 10 Final commit" />
     <MESSAGE value="week 10-2 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 10-2 Initial commit" />
+    <MESSAGE value="week11 Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="week11 Initial commit" />
   </component>
 </project>
