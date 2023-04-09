@@ -7,35 +7,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="week 10 Final commit">
-      <change afterPath="$PROJECT_DIR$/week10-2/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Content/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Data/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/authguard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/contact.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/namespace.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Scripts/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/components/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/contact-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/Views/content/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10-2/yarn.lock" afterDir="false" />
+    <list default="true" id="be3155cf-65ae-468e-877d-89cf0ac45209" name="Changes" comment="week 10-2 Initial commit">
+      <change afterPath="$PROJECT_DIR$/week11/Content/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Data/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/authguard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/contact.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/namespace.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Scripts/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/contact-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/Views/content/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week11/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/contact.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/contact.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/Scripts/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/Scripts/user.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10-2/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/week10-2/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +103,7 @@
     "javascript.nodejs.core.library.configured.version": "18.14.0",
     "javascript.nodejs.core.library.typings.version": "18.14.0",
     "last.edited.regexp": "Dian",
-    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week10-2",
+    "last_opened_file_path": "C:/Users/jasha/WebstormProjects/WEBD-6201-ICE/week11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,22 +111,22 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "ts.external.directory.path": "C:\\Users\\jasha\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8836.50\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\jasha\\WebstormProjects\\WEBD-6201-ICE\\week10-2\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week11" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week10-2" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week9" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2" />
-      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week10" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE" />
+      <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week10" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7-2\views\content" />
       <recent name="C:\Users\jasha\WebstormProjects\WEBD-6201-ICE\week7\views\components" />
     </key>
@@ -165,7 +174,7 @@
       <workItem from="1680214465598" duration="128000" />
       <workItem from="1680564023324" duration="5640000" />
       <workItem from="1680654584098" duration="748000" />
-      <workItem from="1680905354806" duration="9250000" />
+      <workItem from="1680905354806" duration="20129000" />
     </task>
     <task id="LOCAL-00001" summary="Week 4-ICE1 First Commit with edit page and jquery in app.js">
       <created>1675809807750</created>
@@ -356,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680920111217</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="week 10-2 Initial commit">
+      <created>1680925156169</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680925156169</updated>
+    </task>
+    <task id="LOCAL-00029" summary="week 10-2 Initial commit">
+      <created>1680925191217</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1680925191217</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +412,18 @@
         <option value="$PROJECT_DIR$/week10-2/Scripts/namespace.js.map" />
         <option value="$PROJECT_DIR$/week10-2/server.js" />
         <option value="$PROJECT_DIR$/week10-2/server.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/app.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/user.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/router.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/app.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/contact.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/user.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/authguard.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/namespace.js" />
+        <option value="$PROJECT_DIR$/week11/Scripts/router.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/contact.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/authguard.js.map" />
+        <option value="$PROJECT_DIR$/week11/Scripts/namespace.js.map" />
       </list>
     </option>
   </component>
@@ -425,6 +460,7 @@
     <MESSAGE value="Week 9 commit refactored user.js to user.ts" />
     <MESSAGE value="Week 9 Final Commit refactored app.js to app.ts and cleaned up rest of code" />
     <MESSAGE value="week 10 Final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 10 Final commit" />
+    <MESSAGE value="week 10-2 Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 10-2 Initial commit" />
   </component>
 </project>

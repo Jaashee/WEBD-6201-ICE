@@ -2,10 +2,12 @@
 var core;
 (function (core) {
     class User {
-        m_displayName;
-        m_emailAddress;
-        m_username;
-        m_password;
+        constructor(displayName = "", emailAddress = "", username = "", password = "") {
+            this.m_displayName = displayName;
+            this.m_emailAddress = emailAddress;
+            this.m_username = username;
+            this.m_password = password;
+        }
         get DisplayName() {
             return this.m_displayName;
         }
@@ -28,12 +30,6 @@ var core;
             return this.m_password;
         }
         set Password(password) {
-            this.m_password = password;
-        }
-        constructor(displayName = "", emailAddress = "", username = "", password = "") {
-            this.m_displayName = displayName;
-            this.m_emailAddress = emailAddress;
-            this.m_username = username;
             this.m_password = password;
         }
         toString() {
